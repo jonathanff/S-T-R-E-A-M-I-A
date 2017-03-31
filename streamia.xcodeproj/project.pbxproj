@@ -15,6 +15,7 @@
 		824FF4A41E8E151C005F3A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824FF4A21E8E151C005F3A1B /* LaunchScreen.storyboard */; };
 		824FF4AF1E8E151D005F3A1B /* streamiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4AE1E8E151D005F3A1B /* streamiaTests.swift */; };
 		824FF4BA1E8E151D005F3A1B /* streamiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4B91E8E151D005F3A1B /* streamiaUITests.swift */; };
+		82854B611E8E269A000CDCFA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82854B601E8E269A000CDCFA /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		824FF4B51E8E151D005F3A1B /* streamiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FF4B91E8E151D005F3A1B /* streamiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamiaUITests.swift; sourceTree = "<group>"; };
 		824FF4BB1E8E151D005F3A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82854B601E8E269A000CDCFA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				824FF4961E8E151C005F3A1B /* AppDelegate.swift */,
 				824FF4981E8E151C005F3A1B /* ViewController.swift */,
+				82E242051E8E2B7700175C1B /* Model */,
 				824FF49A1E8E151C005F3A1B /* Main.storyboard */,
 				824FF4A01E8E151C005F3A1B /* Assets.xcassets */,
 				824FF4A21E8E151C005F3A1B /* LaunchScreen.storyboard */,
@@ -126,6 +129,14 @@
 				824FF4BB1E8E151D005F3A1B /* Info.plist */,
 			);
 			path = streamiaUITests;
+			sourceTree = "<group>";
+		};
+		82E242051E8E2B7700175C1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82854B601E8E269A000CDCFA /* Movie.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			files = (
 				824FF49F1E8E151C005F3A1B /* streamia.xcdatamodeld in Sources */,
 				824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */,
+				82854B611E8E269A000CDCFA /* Movie.swift in Sources */,
 				824FF4971E8E151C005F3A1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,7 @@
 				824FF4C01E8E151D005F3A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824FF4C11E8E151D005F3A1B /* Build configuration list for PBXNativeTarget "streamiaTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				824FF4C31E8E151D005F3A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824FF4C41E8E151D005F3A1B /* Build configuration list for PBXNativeTarget "streamiaUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				824FF4C61E8E151D005F3A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
