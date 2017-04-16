@@ -19,10 +19,10 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        if let trailer = URL(string: "http://movietrailers.apple.com/movies/paramount/ghost-in-the-shell/ghost-in-the-shell-trailer-1_480p.mov") {
-            let movie = Movie(title: "Ghost in the shell", mediaURL: trailer)
-            play(media: movie)
-        }
+//        if let trailer = URL(string: "http://movietrailers.apple.com/movies/paramount/ghost-in-the-shell/ghost-in-the-shell-trailer-1_480p.mov") {
+//            let movie = Movie(title: "Ghost in the shell", mediaURL: trailer)
+//            play(media: movie)
+//        }
     }
 
     func play<T: Playable>(media: T) {

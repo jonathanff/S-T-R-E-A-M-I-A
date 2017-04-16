@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>movies</key>
+	<array>
+		<dict>
+			<key>poster_16_9</key>
+			<string>ghost_in_the_shell_16_9</string>
+			<key>poster_4_3</key>
+			<string>ghost_in_the_shell_4_3</string>
+			<key>title</key>
+			<string>Ghost In The Shell</string>
+			<key>lenght</key>
+			<integer>105</integer>
+		</dict>
+		<dict>
+			<key>poster_16_9</key>
+			<string>mad_max_16_9</string>
+			<key>poster_4_3</key>
+			<string>mad_max_4_3</string>
+			<key>title</key>
+			<string>Mad Max</string>
+			<key>lenght</key>
+			<integer>105</integer>
+		</dict>
+		<dict>
+			<key>poster_16_9</key>
+			<string>fast_and_furious_16_9</string>
+			<key>poster_4_3</key>
+			<string>fast_and_furious_3_4</string>
+			<key>title</key>
+			<string>Fast and Furious</string>
+			<key>lenght</key>
+			<integer>105</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
