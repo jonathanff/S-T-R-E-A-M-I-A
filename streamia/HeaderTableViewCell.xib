@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -15,12 +15,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9zz-gn-fka">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="pTr-0F-k9s">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -28,18 +28,36 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="igt-gy-YW0">
+                        <rect key="frame" x="0.0" y="87" width="320" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="fSo-EJ-w6I"/>
+                        </constraints>
+                    </imageView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RvT-DL-KCh">
+                        <rect key="frame" x="141" y="82.5" width="39" height="37"/>
+                    </pageControl>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="RvT-DL-KCh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5uI-8x-Nzg"/>
+                    <constraint firstAttribute="trailing" secondItem="igt-gy-YW0" secondAttribute="trailing" id="6yW-zq-B9J"/>
+                    <constraint firstAttribute="bottom" secondItem="RvT-DL-KCh" secondAttribute="bottom" id="AeT-8E-eu1"/>
                     <constraint firstAttribute="trailing" secondItem="9zz-gn-fka" secondAttribute="trailing" id="ID9-iX-o0w"/>
+                    <constraint firstItem="igt-gy-YW0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Jih-Nu-ASU"/>
                     <constraint firstItem="9zz-gn-fka" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WgH-5C-rB3"/>
+                    <constraint firstAttribute="bottom" secondItem="igt-gy-YW0" secondAttribute="bottom" id="olE-Pa-UW4"/>
                     <constraint firstAttribute="bottom" secondItem="9zz-gn-fka" secondAttribute="bottom" id="xzh-w2-eoj"/>
                     <constraint firstItem="9zz-gn-fka" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yzA-Ay-G1I"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="collectionView" destination="9zz-gn-fka" id="FoC-K2-sGP"/>
+                <outlet property="pageControl" destination="RvT-DL-KCh" id="5n7-du-9hC"/>
             </connections>
             <point key="canvasLocation" x="34" y="131"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="black_gradient" width="55" height="84"/>
+    </resources>
 </document>

@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import AVFoundation
-import AVKit
+
 
 class ViewController: UIViewController {
 
@@ -25,14 +24,5 @@ class ViewController: UIViewController {
 //        }
     }
 
-    func play<T: Playable>(media: T) {
-        
-        let player = AVPlayer(url: media.mediaURL!)
-
-        let playerViewController = AVPlayerViewController()
-        playerViewController.player = player
-        present(playerViewController, animated: true) {
-            playerViewController.player?.play()
-        }
-    }
+    
 }

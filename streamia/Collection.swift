@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Collection {
+    let title: String
+    var collectionItems = [Media]()
+}
