@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820D7D921EA337C40010B9B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7D911EA337C40010B9B8 /* HomeViewController.swift */; };
+		820D7D941EA337DD0010B9B8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820D7D931EA337DD0010B9B8 /* Home.storyboard */; };
+		820D7D9B1EA3384C0010B9B8 /* RailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7D991EA3384C0010B9B8 /* RailTableViewCell.swift */; };
+		820D7D9C1EA3384C0010B9B8 /* RailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820D7D9A1EA3384C0010B9B8 /* RailTableViewCell.xib */; };
+		820D7D9F1EA33AF20010B9B8 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7D9D1EA33AF20010B9B8 /* PosterCollectionViewCell.swift */; };
+		820D7DA01EA33AF20010B9B8 /* PosterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820D7D9E1EA33AF20010B9B8 /* PosterCollectionViewCell.xib */; };
+		820D7DA31EA34A010010B9B8 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7DA11EA34A010010B9B8 /* HeaderCollectionViewCell.swift */; };
+		820D7DA41EA34A010010B9B8 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820D7DA21EA34A010010B9B8 /* HeaderCollectionViewCell.xib */; };
+		820D7DA71EA34A0E0010B9B8 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7DA51EA34A0E0010B9B8 /* HeaderTableViewCell.swift */; };
+		820D7DA81EA34A0E0010B9B8 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820D7DA61EA34A0E0010B9B8 /* HeaderTableViewCell.xib */; };
+		820D7DAF1EA352870010B9B8 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7DAE1EA352870010B9B8 /* Show.swift */; };
+		820D7DB21EA3537B0010B9B8 /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 820D7DB11EA3537B0010B9B8 /* movies.plist */; };
+		821CE23B1EA40C320042068F /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CE23A1EA40C320042068F /* Collection.swift */; };
 		824FF4971E8E151C005F3A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4961E8E151C005F3A1B /* AppDelegate.swift */; };
 		824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4981E8E151C005F3A1B /* ViewController.swift */; };
 		824FF49C1E8E151C005F3A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824FF49A1E8E151C005F3A1B /* Main.storyboard */; };
@@ -36,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820D7D911EA337C40010B9B8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		820D7D931EA337DD0010B9B8 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		820D7D991EA3384C0010B9B8 /* RailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailTableViewCell.swift; sourceTree = "<group>"; };
+		820D7D9A1EA3384C0010B9B8 /* RailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RailTableViewCell.xib; sourceTree = "<group>"; };
+		820D7D9D1EA33AF20010B9B8 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		820D7D9E1EA33AF20010B9B8 /* PosterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PosterCollectionViewCell.xib; sourceTree = "<group>"; };
+		820D7DA11EA34A010010B9B8 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		820D7DA21EA34A010010B9B8 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		820D7DA51EA34A0E0010B9B8 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		820D7DA61EA34A0E0010B9B8 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		820D7DAE1EA352870010B9B8 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		820D7DB11EA3537B0010B9B8 /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movies.plist; sourceTree = "<group>"; };
+		821CE23A1EA40C320042068F /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		824FF4931E8E151C005F3A1B /* streamia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FF4961E8E151C005F3A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824FF4981E8E151C005F3A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +104,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820D7D951EA337E40010B9B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				820D7D911EA337C40010B9B8 /* HomeViewController.swift */,
+				820D7D931EA337DD0010B9B8 /* Home.storyboard */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		820D7D961EA337E80010B9B8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				820D7DA91EA34A190010B9B8 /* Cells */,
+				820D7D951EA337E40010B9B8 /* Home */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		820D7DA91EA34A190010B9B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				820D7DAA1EA34A280010B9B8 /* RailTableViewCell */,
+				820D7DAB1EA34A350010B9B8 /* PosterCollectionViewCell */,
+				820D7DAC1EA352730010B9B8 /* HeaderCollectionViewCell */,
+				820D7DAD1EA3527A0010B9B8 /* HeaderTableViewCell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		820D7DAA1EA34A280010B9B8 /* RailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				820D7D991EA3384C0010B9B8 /* RailTableViewCell.swift */,
+				820D7D9A1EA3384C0010B9B8 /* RailTableViewCell.xib */,
+			);
+			name = RailTableViewCell;
+			sourceTree = "<group>";
+		};
+		820D7DAB1EA34A350010B9B8 /* PosterCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				820D7D9D1EA33AF20010B9B8 /* PosterCollectionViewCell.swift */,
+				820D7D9E1EA33AF20010B9B8 /* PosterCollectionViewCell.xib */,
+			);
+			name = PosterCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		820D7DAC1EA352730010B9B8 /* HeaderCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				820D7DA11EA34A010010B9B8 /* HeaderCollectionViewCell.swift */,
+				820D7DA21EA34A010010B9B8 /* HeaderCollectionViewCell.xib */,
+			);
+			name = HeaderCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		820D7DAD1EA3527A0010B9B8 /* HeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				820D7DA51EA34A0E0010B9B8 /* HeaderTableViewCell.swift */,
+				820D7DA61EA34A0E0010B9B8 /* HeaderTableViewCell.xib */,
+			);
+			name = HeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		820D7DB01EA353670010B9B8 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				820D7DB11EA3537B0010B9B8 /* movies.plist */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
 		824FF48A1E8E151C005F3A1B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +202,8 @@
 			children = (
 				824FF4961E8E151C005F3A1B /* AppDelegate.swift */,
 				824FF4981E8E151C005F3A1B /* ViewController.swift */,
+				820D7DB01EA353670010B9B8 /* Mock */,
+				820D7D961EA337E80010B9B8 /* UI */,
 				82E242051E8E2B7700175C1B /* Model */,
 				824FF49A1E8E151C005F3A1B /* Main.storyboard */,
 				824FF4A01E8E151C005F3A1B /* Assets.xcassets */,
@@ -135,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				82854B601E8E269A000CDCFA /* Movie.swift */,
+				820D7DAE1EA352870010B9B8 /* Show.swift */,
+				821CE23A1EA40C320042068F /* Collection.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -250,8 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				824FF4A41E8E151C005F3A1B /* LaunchScreen.storyboard in Resources */,
+				820D7DA01EA33AF20010B9B8 /* PosterCollectionViewCell.xib in Resources */,
+				820D7D9C1EA3384C0010B9B8 /* RailTableViewCell.xib in Resources */,
 				824FF4A11E8E151C005F3A1B /* Assets.xcassets in Resources */,
+				820D7DA81EA34A0E0010B9B8 /* HeaderTableViewCell.xib in Resources */,
+				820D7DA41EA34A010010B9B8 /* HeaderCollectionViewCell.xib in Resources */,
 				824FF49C1E8E151C005F3A1B /* Main.storyboard in Resources */,
+				820D7D941EA337DD0010B9B8 /* Home.storyboard in Resources */,
+				820D7DB21EA3537B0010B9B8 /* movies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +385,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820D7D9F1EA33AF20010B9B8 /* PosterCollectionViewCell.swift in Sources */,
+				820D7DA71EA34A0E0010B9B8 /* HeaderTableViewCell.swift in Sources */,
+				820D7DA31EA34A010010B9B8 /* HeaderCollectionViewCell.swift in Sources */,
+				820D7D921EA337C40010B9B8 /* HomeViewController.swift in Sources */,
 				824FF49F1E8E151C005F3A1B /* streamia.xcdatamodeld in Sources */,
 				824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */,
 				82854B611E8E269A000CDCFA /* Movie.swift in Sources */,
+				821CE23B1EA40C320042068F /* Collection.swift in Sources */,
 				824FF4971E8E151C005F3A1B /* AppDelegate.swift in Sources */,
+				820D7DAF1EA352870010B9B8 /* Show.swift in Sources */,
+				820D7D9B1EA3384C0010B9B8 /* RailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

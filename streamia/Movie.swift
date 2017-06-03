@@ -10,6 +10,8 @@ import Foundation
 
 protocol Media {
     var title: String? { get set }
+    var posterImageName43: String? { get set }
+    var posterImageName169: String? { get set }
 }
 
 protocol Playable {
@@ -17,6 +19,8 @@ protocol Playable {
 }
 
 struct Movie : Media, Playable {
-    internal var title: String? 
+    internal var title: String?
+    internal var posterImageName43: String?
+    internal var posterImageName169: String?
     internal var mediaURL: URL?
 }
