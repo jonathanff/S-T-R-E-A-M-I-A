@@ -16,11 +16,17 @@ protocol Media {
 
 protocol Playable {
     var mediaURL: URL? { get set }
+    var playhead: Int? { get set }
 }
 
 struct Movie : Media, Playable {
     internal var title: String?
+    internal var synopsis: String?
+    internal var year: String?
+    internal var length: Int?
+    internal var classification: String?
     internal var posterImageName43: String?
     internal var posterImageName169: String?
     internal var mediaURL: URL?
+    internal var playhead: Int?
 }
