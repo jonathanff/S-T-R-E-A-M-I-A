@@ -124,8 +124,8 @@ extension HomeViewController: UICollectionViewDelegate {
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let currentPage = floorf(Float(scrollView.contentOffset.x) / Float(scrollView.frame.size.width))
-        if let tableViewCell = tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? HeaderTableViewCell {
-            tableViewCell.pageControl.currentPage = Int(currentPage)
+        if let headerCell = tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? HeaderTableViewCell, scrollView == headerCell.collectionView {
+            headerCell.pageControl.currentPage = Int(currentPage)
         }
     }
 }
