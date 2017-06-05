@@ -20,4 +20,5 @@ struct Season {
 
 struct Episode: Playable {
     internal var mediaURL: URL?
+    internal var playhead: Int?
 }

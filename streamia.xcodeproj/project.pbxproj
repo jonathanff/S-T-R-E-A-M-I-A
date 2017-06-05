@@ -29,6 +29,12 @@
 		824FF4AF1E8E151D005F3A1B /* streamiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4AE1E8E151D005F3A1B /* streamiaTests.swift */; };
 		824FF4BA1E8E151D005F3A1B /* streamiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4B91E8E151D005F3A1B /* streamiaUITests.swift */; };
 		82854B611E8E269A000CDCFA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82854B601E8E269A000CDCFA /* Movie.swift */; };
+		8295CC531EE4596900B37B09 /* MovieMetadataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295CC511EE4596900B37B09 /* MovieMetadataTableViewCell.swift */; };
+		8295CC541EE4596900B37B09 /* MovieMetadataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8295CC521EE4596900B37B09 /* MovieMetadataTableViewCell.xib */; };
+		82B9A7F91EE2852B00DC0D36 /* Movie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B9A7F81EE2852B00DC0D36 /* Movie.storyboard */; };
+		82B9A7FB1EE2853300DC0D36 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B9A7FA1EE2853300DC0D36 /* MovieViewController.swift */; };
+		82B9A7FE1EE2886400DC0D36 /* MovieHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B9A7FC1EE2886400DC0D36 /* MovieHeaderTableViewCell.swift */; };
+		82B9A7FF1EE2886400DC0D36 /* MovieHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B9A7FD1EE2886400DC0D36 /* MovieHeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,12 @@
 		824FF4B91E8E151D005F3A1B /* streamiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamiaUITests.swift; sourceTree = "<group>"; };
 		824FF4BB1E8E151D005F3A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82854B601E8E269A000CDCFA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8295CC511EE4596900B37B09 /* MovieMetadataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieMetadataTableViewCell.swift; sourceTree = "<group>"; };
+		8295CC521EE4596900B37B09 /* MovieMetadataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieMetadataTableViewCell.xib; sourceTree = "<group>"; };
+		82B9A7F81EE2852B00DC0D36 /* Movie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Movie.storyboard; sourceTree = "<group>"; };
+		82B9A7FA1EE2853300DC0D36 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		82B9A7FC1EE2886400DC0D36 /* MovieHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		82B9A7FD1EE2886400DC0D36 /* MovieHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieHeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				820D7DA91EA34A190010B9B8 /* Cells */,
+				82B9A7F31EE284EE00DC0D36 /* Movie Detail */,
 				820D7D951EA337E40010B9B8 /* Home */,
 			);
 			name = UI;
@@ -230,6 +243,19 @@
 				824FF4BB1E8E151D005F3A1B /* Info.plist */,
 			);
 			path = streamiaUITests;
+			sourceTree = "<group>";
+		};
+		82B9A7F31EE284EE00DC0D36 /* Movie Detail */ = {
+			isa = PBXGroup;
+			children = (
+				82B9A7F81EE2852B00DC0D36 /* Movie.storyboard */,
+				82B9A7FC1EE2886400DC0D36 /* MovieHeaderTableViewCell.swift */,
+				82B9A7FD1EE2886400DC0D36 /* MovieHeaderTableViewCell.xib */,
+				82B9A7FA1EE2853300DC0D36 /* MovieViewController.swift */,
+				8295CC511EE4596900B37B09 /* MovieMetadataTableViewCell.swift */,
+				8295CC521EE4596900B37B09 /* MovieMetadataTableViewCell.xib */,
+			);
+			name = "Movie Detail";
 			sourceTree = "<group>";
 		};
 		82E242051E8E2B7700175C1B /* Model */ = {
@@ -356,7 +382,10 @@
 				820D7DA01EA33AF20010B9B8 /* PosterCollectionViewCell.xib in Resources */,
 				820D7D9C1EA3384C0010B9B8 /* RailTableViewCell.xib in Resources */,
 				824FF4A11E8E151C005F3A1B /* Assets.xcassets in Resources */,
+				82B9A7FF1EE2886400DC0D36 /* MovieHeaderTableViewCell.xib in Resources */,
 				820D7DA81EA34A0E0010B9B8 /* HeaderTableViewCell.xib in Resources */,
+				82B9A7F91EE2852B00DC0D36 /* Movie.storyboard in Resources */,
+				8295CC541EE4596900B37B09 /* MovieMetadataTableViewCell.xib in Resources */,
 				820D7DA41EA34A010010B9B8 /* HeaderCollectionViewCell.xib in Resources */,
 				824FF49C1E8E151C005F3A1B /* Main.storyboard in Resources */,
 				820D7D941EA337DD0010B9B8 /* Home.storyboard in Resources */,
@@ -389,6 +418,7 @@
 				820D7DA71EA34A0E0010B9B8 /* HeaderTableViewCell.swift in Sources */,
 				820D7DA31EA34A010010B9B8 /* HeaderCollectionViewCell.swift in Sources */,
 				820D7D921EA337C40010B9B8 /* HomeViewController.swift in Sources */,
+				8295CC531EE4596900B37B09 /* MovieMetadataTableViewCell.swift in Sources */,
 				824FF49F1E8E151C005F3A1B /* streamia.xcdatamodeld in Sources */,
 				824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */,
 				82854B611E8E269A000CDCFA /* Movie.swift in Sources */,
@@ -396,6 +426,8 @@
 				824FF4971E8E151C005F3A1B /* AppDelegate.swift in Sources */,
 				820D7DAF1EA352870010B9B8 /* Show.swift in Sources */,
 				820D7D9B1EA3384C0010B9B8 /* RailTableViewCell.swift in Sources */,
+				82B9A7FB1EE2853300DC0D36 /* MovieViewController.swift in Sources */,
+				82B9A7FE1EE2886400DC0D36 /* MovieHeaderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +585,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollo.streamia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -566,6 +599,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollo.streamia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -32,6 +32,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout {
                     for itemJSON in itemsJSON {
                         var movie = Movie()
                         movie.title = itemJSON["title"] as? String
+                        movie.year = itemJSON["year"] as? String
+                        movie.length = itemJSON["length"] as? Int
+                        movie.playhead = itemJSON["playhead"] as? Int
+                        movie.synopsis = itemJSON["synopsis"] as? String
+                        movie.classification = itemJSON["classification"] as? String
                         movie.posterImageName169 = itemJSON["poster_16_9"] as? String
                         movie.posterImageName43 = itemJSON["poster_4_3"] as? String
                         if let mediURLString = itemJSON["mediaURL"] as? String,
@@ -107,9 +112,13 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
         let collection = collections[collectionView.tag]
         if let movie = collection.collectionItems[indexPath.row] as? Movie {
-        play(media: movie)
+            let selectedMovieViewController = MovieViewController.newWithMovie(movie: movie)
+            self.navigationController?.pushViewController(selectedMovieViewController, animated: true)
+//            play(media: movie)
         }
     }
     
