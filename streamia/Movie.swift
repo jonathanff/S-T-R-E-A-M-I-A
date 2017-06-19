@@ -10,6 +10,7 @@ import Foundation
 
 protocol Media {
     var title: String? { get set }
+    var identifier: String? { get set }
     var posterImageName43: String? { get set }
     var posterImageName169: String? { get set }
 }
@@ -21,6 +22,7 @@ protocol Playable {
 
 struct Movie : Media, Playable {
     internal var title: String?
+    internal var identifier: String?
     internal var synopsis: String?
     internal var year: String?
     internal var length: Int?

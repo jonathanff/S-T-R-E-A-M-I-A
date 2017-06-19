@@ -26,6 +26,8 @@
 					<string>2016</string>
 					<key>synopsis</key>
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
+					<key>id</key>
+					<string>1</string>
 				</dict>
 				<dict>
 					<key>mediaURL</key>
@@ -44,6 +46,8 @@
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>classification</key>
 					<string>Mature</string>
+					<key>id</key>
+					<string>2</string>
 					<key>year</key>
 					<string>2016</string>
 				</dict>
@@ -58,6 +62,8 @@
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>title</key>
 					<string>Ghost In The Shell</string>
+					<key>id</key>
+					<string>3</string>
 					<key>length</key>
 					<integer>105</integer>
 					<key>classification</key>
@@ -89,6 +95,8 @@
 					<string>2016</string>
 					<key>synopsis</key>
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
+					<key>id</key>
+					<string>1</string>
 				</dict>
 				<dict>
 					<key>mediaURL</key>
@@ -99,12 +107,16 @@
 					<string>mad_max_4_3</string>
 					<key>title</key>
 					<string>Mad Max</string>
+					<key>playhead</key>
+					<integer>10</integer>
 					<key>length</key>
 					<integer>105</integer>
 					<key>synopsis</key>
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>classification</key>
 					<string>Mature</string>
+					<key>id</key>
+					<string>2</string>
 					<key>year</key>
 					<string>2016</string>
 				</dict>
@@ -119,6 +131,8 @@
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>title</key>
 					<string>Ghost In The Shell</string>
+					<key>id</key>
+					<string>3</string>
 					<key>length</key>
 					<integer>105</integer>
 					<key>classification</key>
@@ -150,6 +164,8 @@
 					<string>2016</string>
 					<key>synopsis</key>
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
+					<key>id</key>
+					<string>1</string>
 				</dict>
 				<dict>
 					<key>mediaURL</key>
@@ -160,12 +176,16 @@
 					<string>mad_max_4_3</string>
 					<key>title</key>
 					<string>Mad Max</string>
+					<key>playhead</key>
+					<integer>10</integer>
 					<key>length</key>
 					<integer>105</integer>
 					<key>synopsis</key>
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>classification</key>
 					<string>Mature</string>
+					<key>id</key>
+					<string>2</string>
 					<key>year</key>
 					<string>2016</string>
 				</dict>
@@ -180,6 +200,8 @@
 					<string>In the near future, the vast majority of humans are augmented with cybernetics, enhancing various traits like vision, strength, and intelligence. Hanka Robotics, the world&apos;s leading developer of augmentative technology, establishes a secret project to develop a mechanical body, or shell, that can integrate a human brain rather than an AI. Mira Killian,[10] a young woman who is the sole survivor of the cyberterrorist attack which killed her parents, is chosen as the test subject after her body is apparently damaged beyond repair. Over the objections of her designer, Dr. Ouelet, Hanka CEO Cutter decides to use Killian as a counter-terrorism operative.</string>
 					<key>title</key>
 					<string>Ghost In The Shell</string>
+					<key>id</key>
+					<string>3</string>
 					<key>length</key>
 					<integer>105</integer>
 					<key>classification</key>

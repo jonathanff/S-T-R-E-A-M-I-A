@@ -10,6 +10,8 @@ import UIKit
 import AVFoundation
 import AVKit
 import CoreMedia
+import CoreSpotlight
+import MobileCoreServices
 
 class MovieViewController: UIViewController {
     
@@ -31,6 +33,27 @@ class MovieViewController: UIViewController {
         tableView.register(UINib.init(nibName: "MovieMetadataTableViewCell", bundle: nil), forCellReuseIdentifier: "MovieMetadataTableViewCell")
         tableView.estimatedRowHeight = 44.0
         tableView.rowHeight = UITableViewAutomaticDimension
+        
+        //Spotlight search
+        let searchableItemAttributeSet = CSSearchableItemAttributeSet(itemContentType: kUTTypeText as String)
+        searchableItemAttributeSet.title = movie?.title
+        if let moviePoster = movie?.posterImageName43 {
+            searchableItemAttributeSet.thumbnailURL = AssetExtractor.createLocalUrl(forImageNamed: moviePoster)
+        }
+        
+        searchableItemAttributeSet.contentDescription = movie?.synopsis
+        if let movieTitle = movie?.title {
+            searchableItemAttributeSet.keywords = [movieTitle]
+        }
+        
+        if let movieIdentifier = movie?.identifier {
+            let searchableItem = CSSearchableItem(uniqueIdentifier: movieIdentifier, domainIdentifier: "", attributeSet: searchableItemAttributeSet)
+            CSSearchableIndex.default().indexSearchableItems([searchableItem]) { (error) -> Void in
+                if error != nil {
+                    print("\(error?.localizedDescription)")
+                }
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

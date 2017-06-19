@@ -20,6 +20,7 @@
 		820D7DAF1EA352870010B9B8 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7DAE1EA352870010B9B8 /* Show.swift */; };
 		820D7DB21EA3537B0010B9B8 /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 820D7DB11EA3537B0010B9B8 /* movies.plist */; };
 		821CE23B1EA40C320042068F /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CE23A1EA40C320042068F /* Collection.swift */; };
+		824AAA551EE5192800E50ABC /* AssetExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824AAA541EE5192800E50ABC /* AssetExtractor.swift */; };
 		824FF4971E8E151C005F3A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4961E8E151C005F3A1B /* AppDelegate.swift */; };
 		824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF4981E8E151C005F3A1B /* ViewController.swift */; };
 		824FF49C1E8E151C005F3A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824FF49A1E8E151C005F3A1B /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		820D7DAE1EA352870010B9B8 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		820D7DB11EA3537B0010B9B8 /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movies.plist; sourceTree = "<group>"; };
 		821CE23A1EA40C320042068F /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		824AAA541EE5192800E50ABC /* AssetExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetExtractor.swift; sourceTree = "<group>"; };
 		824FF4931E8E151C005F3A1B /* streamia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FF4961E8E151C005F3A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824FF4981E8E151C005F3A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				820D7DA91EA34A190010B9B8 /* Cells */,
 				82B9A7F31EE284EE00DC0D36 /* Movie Detail */,
 				820D7D951EA337E40010B9B8 /* Home */,
+				824AAA541EE5192800E50ABC /* AssetExtractor.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				820D7DA31EA34A010010B9B8 /* HeaderCollectionViewCell.swift in Sources */,
 				820D7D921EA337C40010B9B8 /* HomeViewController.swift in Sources */,
 				8295CC531EE4596900B37B09 /* MovieMetadataTableViewCell.swift in Sources */,
+				824AAA551EE5192800E50ABC /* AssetExtractor.swift in Sources */,
 				824FF49F1E8E151C005F3A1B /* streamia.xcdatamodeld in Sources */,
 				824FF4991E8E151C005F3A1B /* ViewController.swift in Sources */,
 				82854B611E8E269A000CDCFA /* Movie.swift in Sources */,

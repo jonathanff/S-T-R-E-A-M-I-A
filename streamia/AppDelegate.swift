@@ -88,6 +88,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        guard let navigationController = window?.rootViewController as? UINavigationController else { return false }
+        let viewController = navigationController.viewControllers.first
+        viewController?.restoreUserActivityState(userActivity)
+        
+        return true
+    }
 }
-
