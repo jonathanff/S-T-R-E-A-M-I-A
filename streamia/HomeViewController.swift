@@ -31,6 +31,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout {
                     var collectionItems = [Movie]()
                     for itemJSON in itemsJSON {
                         var movie = Movie()
+                        movie.identifier = itemJSON["id"] as? String
                         movie.title = itemJSON["title"] as? String
                         movie.year = itemJSON["year"] as? String
                         movie.length = itemJSON["length"] as? Int
@@ -76,6 +77,31 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout {
         return CGSize(width: 93, height: 124)
     }
     
+    override func restoreUserActivityState(_ activity: NSUserActivity) {
+        if activity.activityType == "com.apple.corespotlightitem" {
+            guard let userInfo = activity.userInfo,
+                let selectedMovieIdentifier = userInfo["kCSSearchableItemActivityIdentifier"] as? String else { return }
+            
+            //Search for the selected movie object in all collections.
+            var movie:Movie?
+            for collection in collections {
+                let movies = collection.collectionItems.filter({ (media) -> Bool in
+                    return selectedMovieIdentifier == media.identifier
+                })
+                
+                movie = movies.first as? Movie
+            }
+            
+            guard let selectedMovie = movie else { return }
+            let selectedMovieViewController = MovieViewController.newWithMovie(movie: selectedMovie)
+
+            if let viewControllers = self.navigationController?.viewControllers {
+                if let homeViewController = viewControllers.first {
+                    self.navigationController?.setViewControllers([homeViewController, selectedMovieViewController], animated: true)
+                }
+            }
+        }
+    }
 }
 
 extension HomeViewController: UITableViewDataSource {
@@ -112,13 +138,10 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        
         let collection = collections[collectionView.tag]
         if let movie = collection.collectionItems[indexPath.row] as? Movie {
             let selectedMovieViewController = MovieViewController.newWithMovie(movie: movie)
             self.navigationController?.pushViewController(selectedMovieViewController, animated: true)
-//            play(media: movie)
         }
     }
     
